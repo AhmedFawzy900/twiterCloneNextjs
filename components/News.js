@@ -12,7 +12,7 @@ const News = ({articale}) => {
                     <p className='text-xs font-meduim text-gray-500'>{articale.source.name}</p>
 
                 </div>
-                <Image className='rounded-xl '  alt='/' width='80' height='90' src={articale.urlToImage}  />
+                <img className='rounded-xl '  alt='/' width='80' height='90' src={articale.urlToImage}  />
 
             </div>
         </Link>
