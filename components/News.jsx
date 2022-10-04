@@ -5,7 +5,7 @@ import React from 'react'
 const News = ({articale}) => {
   return (
     <div>
-        <a href={articale.url} target='_blank' >
+        <Link href={articale.url} >
             <div className="flex items-center justify-between px-4 py-2 space-x-1 hover:bg-gray-200 transition duration-200">
                 <div className="space-y-0.5">
                     <h6 className='text-sm font-bold'>{articale.title}</h6>
